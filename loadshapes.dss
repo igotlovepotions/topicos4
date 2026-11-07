@@ -1,0 +1,9 @@
+New LoadShape.LoadProfile npts=24 interval=1 mult=[0.55 0.50 0.48 0.47 0.50 0.58 0.70 0.80 0.85 0.90 0.95 1.00 0.95 0.92 0.90 0.93 1.00 1.00 0.95 0.90 0.85 0.80 0.70 0.60]
+
+New LoadShape.Irrad npts=24 interval=1 mult=[0 0 0 0 0 0 .10 .30 .50 .70 .85 .95 1.0 .95 .85 .60 .35 .10 0 0 0 0 0]
+
+New TShape.Temp npts=24 interval=1 temp=[25 25 25 25 25 25 25 25 35 40 45 50 60 60 55 40 35 30 25 25 25 25 25 25]
+
+New XYCurve.Effic npts=4 xarray=[.1 .2 .4 1.0] yarray=[.86 .90 .93 .97]
+
+New XYcurve.PvsT npts=4 xarray=[0 25 75 100] yarray=[1.2 1.0 .8 .6]
